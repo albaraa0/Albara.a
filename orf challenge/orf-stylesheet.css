@@ -65,14 +65,9 @@
   body {
     font-family: "Source Sans Pro", Arial, sans-serif;
     max-width: 1000px;
-<<<<<<< HEAD
-    margin: auto;
     padding: 2rem;
-=======
     font-size: 16px;
     margin: 0 auto;
-    padding: 0;
->>>>>>> 1424be5 (Abgabe ORF)
   }
   .News p {
     margin-top: 20px;
