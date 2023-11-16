@@ -39,6 +39,22 @@ header {
     display: none;
   }
 }
+<<<<<<< HEAD
+=======
+ul form label {
+  padding: 10px;
+  display: block;
+}
+ul form input[type="text"],
+ul form input[type="email"] {
+  width: 60%;
+  font-size: 16px;
+}
+ul form textarea {
+  width: 60%;
+  height: 200px;
+}
+>>>>>>> 1424be5 (Abgabe ORF)
 
 @media only screen and (max-width: 767px) {
   .menu-list li:nth-child(1),
@@ -120,6 +136,7 @@ ul form li {
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 ul form label {
   padding: 10px;
   display: block;
@@ -133,4 +150,7 @@ ul form textarea {
   width: 60%;
   height: 200px;
 }
+=======
+
+>>>>>>> 1424be5 (Abgabe ORF)
   
