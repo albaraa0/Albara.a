@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+header {
+  text-align: left;
+  background-color: #16416b;
+  color: white;
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 767px) {
+  .menu-list {
+    list-style: none;
+    display: flex;
+  }
+
+  .menu-list li {
+    margin-right: 20px;
+  }
+
+  .menu-list li:last-child {
+    margin-right: 0;
+  }
+
+  .menu-list a {
+    text-decoration: none;
+    color: white;
+  }
+  .menu-dropdown {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .menu-list li:nth-child(1),
+  .menu-list li:nth-child(2),
+  .menu-list li:nth-child(3) {
+    display: none;
+  }
+  .submenu {
+    display: none;
+  }
+
+  .menu-dropdown:hover .submenu {
+    display: block;
+  }
+
+  .submenu a {
+    color: white;
+  }
+
+  nav ul {
+    list-style: none;
+    text-align: left;
+  }
+
+  .menu-dropdown:hover ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+  }
+  .menu-dropdown img {
+    margin-right: 0.5rem;
+    height: 1.5rem;
+  }
+}
+
+section:first-of-type {
+  background-color: steelblue;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+section:first-of-type h1 {
+  margin-right: 1rem;
+  color: white;
+}
+section:first-of-type img,
+section:first-of-type h1 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 3rem;
+}
+section:first-of-type p {
+  margin-top: 2rem;
+  font-size: 16px;
+  color: white;
+  font-style: italic;
+}
+section:last-of-type {
+  background-color: gainsboro;
+}
+form input,
+form textarea {
+  margin: 10px;
+}
+
+form button {
+  margin: 20px;
+  background-color: grey;
+  padding: 10px;
+}
+ul form {
+  list-style: none;
+}
+
+ul form li {
+  margin-bottom: 20px;
+}
+
+ul form label {
+  padding: 10px;
+  display: block;
+}
+ul form input[type="text"],
+ul form input[type="email"] {
+  width: 60%;
+  font-size: 16px;
+}
+ul form textarea {
+  width: 60%;
+  height: 200px;
+}
+  

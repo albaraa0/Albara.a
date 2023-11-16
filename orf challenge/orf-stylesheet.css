@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #menu{
+    text-align: left;
+    background-color: #16416b;
+    color: white;
+    padding: 1rem;
+  }
+  @media only screen and (min-width: 767px) {
+    .menu-list {
+      list-style: none;
+      display: flex;
+    }
+  
+    .menu-list li {
+      margin-right: 20px;
+    }
+  
+    .menu-list li:last-child {
+      margin-right: 0;
+    }
+  
+    .menu-list a {
+      text-decoration: none;
+      color: white;
+    }
+    .menu-dropdown {
+      display: none;
+    }
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: left;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+  }
+  .News {
+    background-color: steelblue;
+    padding: 2rem;
+    margin-top: 1rem;
+  }
+  .News h1 {
+    margin-right: 1rem;
+    font-size: 1px;
+    color: white;
+  }
+  .News h1,
+  .News img {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 3.6rem;
+  }
+  .News h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: white;
+  }
+  body {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+  }
+  .News p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+  }
+  .News p:first-of-type {
+    margin-bottom: 3rem;
+  }
+  .News p:last-of-type {
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .Putin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+    background-color: #f0f8ff;
+    border-left: 10px solid dodgerblue;
+  }
+  .Putin img,
+  .Putin p:first-of-type {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .Putin img {
+    max-height: 150px;
+  }
+  
+  .Putin p:first-of-type {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .Putin p {
+    display: flex;
+  }
+  
+  .Putin p:last-of-type {
+    display: block;
+    margin-top: auto;
+    display: inline-block;
+  }
+  footer {
+    background-color: #16416B;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+  }
+  footer p {
+    color: white;
+  }
+  
+  footer nav ul {
+    list-style: none;
+  }
+  
+  footer nav ul li {
+    display: inline;
+    margin-right: 2rem;
+    margin-left: 1rem;
+  }
+  
+  footer nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .menu-list li:nth-child(1),
+    .menu-list li:nth-child(2),
+    .menu-list li:nth-child(3) {
+      display: none;
+    }
+    .submenu {
+      display: none;
+    }
+  
+    .menu-dropdown:hover .submenu {
+      display: block;
+    }
+  
+    .submenu a {
+      color: white;
+    }
+  
+    nav ul {
+      list-style: none;
+      text-align: left;
+    }
+  
+    .menu-dropdown:hover ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+  
+    nav ul li a {
+      text-decoration: none;
+    }
+    .menu-dropdown img {
+      margin-right: 0.5rem;
+      height: 1.5rem;
+    }
+  }
+  .Adresse {
+    font-style: italic;
+    border-top: 1px solid #000;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .inland p,
+  .ausland p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .inland,
+  .ausland {
+    background-color: white;
+    color: black;
+    padding-top: 5rem;
+  }
+  
+  .inland h1,
+  .ausland h1 {
+    font-size: 24px;
+  }
+  
+  .inland h2,
+  .ausland h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
